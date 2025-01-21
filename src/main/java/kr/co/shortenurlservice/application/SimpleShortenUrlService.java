@@ -78,8 +78,6 @@ public class SimpleShortenUrlService {
             if(null == shortenUrl)
                 return shortenUrlKey;
         }
-
         throw new LackOfShortenUrlKeyException();
     }
-
 }
